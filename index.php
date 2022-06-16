@@ -3,7 +3,7 @@
 require 'admin/config.php';
 require 'functions.php';
 
-
+//Nueva conexión
 $conexion = conexion($bd_config);
 
 if (!$conexion) {
